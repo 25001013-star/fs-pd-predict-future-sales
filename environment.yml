@@ -1,0 +1,26 @@
+name: predict_future_sales
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - typer
+  - loguru
+  - tqdm
+  - ipython
+  - jupyterlab
+  - matplotlib
+  - notebook
+  - numpy
+  - pandas
+  - scikit-learn
+  - seaborn
+  - statsmodels
+  - pyarrow
+  - ipykernel
+  - nbconvert
+  - ruff
+  - pytest
+  - pip:
+    - python-dotenv
+    - -e .
