@@ -28,10 +28,9 @@
   - Solo 13 % de los pares vendió en oct-2015.
 - La mediana de meses sin venta por par es 94 % (series intermitentes) → conviene un modelo global de ML con lags y variables de respaldo.
 
-**Pendiente (lo hace Fabio)**
-- `git push -u origin main` (requiere su login).
-- Screenshot del `git pull` (1.f).
-- Revisar y ejecutar el notebook en VS Code, ajustando las interpretaciones con su propio criterio.
+**Cierre del Proyecto 1**
+- Push a GitHub hecho (repo público) y screenshot del `git pull` tomado. Los 3 entregables están completos.
+- Fabio decidió entregar las interpretaciones tal como quedaron (se permite el uso de Claude Code).
 
 **Siguiente paso**
 - Fase 2: feature engineering (malla mensual, `item_cnt_month` recortado a [0, 20], lags) y pasar el flujo a scripts.
